@@ -1,4 +1,4 @@
-enum icons {
+enum Icons {
 
     //% block="yes"
     Yes,
@@ -6,13 +6,12 @@ enum icons {
     //% block="no"
     No
 }
-//% weight=100 color=#17A589 icon=IC
 namespace icons {
     /**
      *  making a icon yes or no e.g. no/yes
      */
     //% block
-    export function iconAnswer(answer: icons): void {
+    export function iconAnswer(answer: Icons): void {
 
         
         if (answer == 0) {
